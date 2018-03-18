@@ -27,7 +27,6 @@ public class SimpleNameSearch {
 		
 		TermVectorStorage storage = new HashMapTermVectorStorage();
 		VectorClassifier vc = new VectorClassifier(storage);
-		
 		String correctName = "madonah";
 		
 		for(String names: name) {
@@ -37,7 +36,7 @@ public class SimpleNameSearch {
 				
 				double results = vc.classify("sterm", names);
 			
-				System.out.println(names + "=" + results);
+				System.out.println(names + " = " + results);
 				
 				
 			}catch(ClassifierException e) {
@@ -46,8 +45,6 @@ public class SimpleNameSearch {
 			}
 			
 		}
-		
-		
 		
 	}
 	
