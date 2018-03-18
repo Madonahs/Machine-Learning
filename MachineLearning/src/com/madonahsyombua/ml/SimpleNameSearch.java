@@ -27,6 +27,7 @@ public class SimpleNameSearch {
 		
 		TermVectorStorage storage = new HashMapTermVectorStorage();
 		VectorClassifier vc = new VectorClassifier(storage);
+		//correct string name when you enter search"
 		String correctName = "madonah";
 		
 		for(String names: name) {
@@ -48,7 +49,7 @@ public class SimpleNameSearch {
 		
 	}
 	
-	
+	//main method
 	public static void main(String[] args) {
 		
 		SimpleNameSearch ns = new SimpleNameSearch();
