@@ -10,7 +10,7 @@ import net.sf.classifier4J.vector.VectorClassifier;
 public class SimpleNameSearch {
 
 	public SimpleNameSearch() {
-		
+		//welcome new team members feel free to add some methods here
 		List<String> name = new ArrayList<>();
 		
 		name.add("madonah");
@@ -49,7 +49,7 @@ public class SimpleNameSearch {
 		
 	}
 	
-	//main method
+
 	public static void main(String[] args) {
 		
 		SimpleNameSearch ns = new SimpleNameSearch();
