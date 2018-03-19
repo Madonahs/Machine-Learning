@@ -1,23 +1,6 @@
 # Machine-Learning-Java
 Practice ML in Java
 
-## Simple name search 
-
-using my name :  `Madonah`
-
-```
-Exercise 1. search Madonah.
-
-OutPut : 
-madonah = 1.0
-madona = 0.0
-madonna = 0.0
-maddona = 0.0
-
-```
-
-> The confidence is always between 0 and 0.99999. So we got a positive score 1.0
-
 ## Meet Our Contributors
 List [Contributors](https://github.com/Madonahs/Machine-Learning-Java/wiki)
 
