@@ -10,7 +10,10 @@ import net.sf.classifier4J.vector.VectorClassifier;
 public class SimpleNameSearch {
 
 	public SimpleNameSearch() {
-		//welcome new team members feel free to add some methods here
+	/**
+	 * Hell new team members we will start step by step :) 
+	 * Feel free to ask me any question in advance
+	 */
 		List<String> name = new ArrayList<>();
 		
 		name.add("madonah");
