@@ -31,7 +31,7 @@ For the program to run you need to add:
 Read  [Contributing](https://gist.github.com/PurpleBooth/b24679402957c63ec426)
 
 ## Code Of Conduct
-Read - https://github.com/Madonahs/Machine-Learning-Java/blob/master/CODE_OF_CONDUCT.md
+Read - [Code of code](https://github.com/Madonahs/Machine-Learning-Java/blob/master/CODE_OF_CONDUCT.md)
 
 ### Java build Path:
 ![buildpath](https://user-images.githubusercontent.com/11560987/37567138-79e3e0c2-2a90-11e8-9c8a-fd0b96d81b8f.PNG)
