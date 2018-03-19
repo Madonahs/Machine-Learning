@@ -27,5 +27,9 @@ maddoonnaiii = 0.0
 For the program to run you need to add:
 [Classfier4J](https://sourceforge.net/projects/classifier4j/?source=typ_redirect)
 
+## Contributing
+
+Read  [Contributing](https://gist.github.com/PurpleBooth/b24679402957c63ec426)
+
 ### Java build Path:
 ![buildpath](https://user-images.githubusercontent.com/11560987/37567138-79e3e0c2-2a90-11e8-9c8a-fd0b96d81b8f.PNG)
