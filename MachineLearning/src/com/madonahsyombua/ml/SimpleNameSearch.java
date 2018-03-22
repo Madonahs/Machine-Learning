@@ -27,6 +27,19 @@ public class SimpleNameSearch {
 		name.add("maddonattt");
 		name.add("maddoonnaiii");
 		
+	        List<String> name1 = new ArrayList<>();
+		
+		name1.add("nida");
+		name1.add("nidu");
+		name1.add("nidha");
+		name1.add("nidaaa");
+		name1.add("niiddaa");
+		name1.add("needa");
+		name1.add("nidz");
+		name1.add("nidaa");
+		name1.add("nidda");
+		name1.add("niday");
+		
 		
 		TermVectorStorage storage = new HashMapTermVectorStorage();
 		VectorClassifier vc = new VectorClassifier(storage);
@@ -43,13 +56,29 @@ public class SimpleNameSearch {
 				System.out.println(names + " = " + results);
 				
 				
-			}catch(ClassifierException e) {
+			}
+			catch(ClassifierException e) {
 				
 				e.printStackTrace();
 			}
 			
 		}
 		
+		for(String names1: name1) {
+				try {
+					
+					vc.teachMatch("sterm",correctName1);
+					
+					double results = vc.classify("sterm", names1);
+				
+					System.out.println(names1 + " = " + results);
+					
+					
+				}catch(ClassifierException e) {
+					
+					e.printStackTrace();
+				}
+		}
 	}
 	
 
