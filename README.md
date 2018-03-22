@@ -1,5 +1,5 @@
-# Machine-Learning-Java
-Practice Machine Learning in Java. 
+# Machine-Learning
+Practice Machine Learning.
 
 ## Meet Our Contributors
 List [Contributors](https://github.com/Madonahs/Machine-Learning-Java/wiki)
