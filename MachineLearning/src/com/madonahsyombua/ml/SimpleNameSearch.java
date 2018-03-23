@@ -49,6 +49,7 @@ public class SimpleNameSearch {
         names.add("nidaa");
         names.add("madonnaah");
 
+        System.out.println();
      
         parametrizedSimpleSearch(names,"nida");
 
