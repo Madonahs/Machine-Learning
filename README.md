@@ -16,6 +16,9 @@ Read - [Code of conduct](https://github.com/Madonahs/Machine-Learning-Java/blob/
 For the program to run you need to add:
 [Classfier4J](https://sourceforge.net/projects/classifier4j/?source=typ_redirect)
 
+## Licence
+Read [Licence](https://github.com/Madonahs/Machine-Learning/blob/master/LICENSE.md)
+
 
 ### Java build Path:
 ![buildpath](https://user-images.githubusercontent.com/11560987/37567138-79e3e0c2-2a90-11e8-9c8a-fd0b96d81b8f.PNG)
