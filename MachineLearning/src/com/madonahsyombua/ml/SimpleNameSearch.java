@@ -36,7 +36,7 @@ public class SimpleNameSearch {
 
         SimpleNameSearch ns = new SimpleNameSearch();
         System.out.println("Machine Learning: ");
-        System.out.println("******************************************");
+        System.out.println("************************************");
         List<String> names = new ArrayList<String>();
 
         names.add("nida");
