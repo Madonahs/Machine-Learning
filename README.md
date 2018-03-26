@@ -1,6 +1,9 @@
 # Machine-Learning
 Practice Machine Learning.
 
+## Prerequisites
+An open mind and an open heart, Strong Programmer +.
+
 ## Meet Our Contributors
 List [Contributors](https://github.com/Madonahs/Machine-Learning-Java/wiki)
 
