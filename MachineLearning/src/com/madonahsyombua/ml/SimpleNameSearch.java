@@ -48,7 +48,8 @@ public class SimpleNameSearch {
         names.add("madonah");
         names.add("nidaa");
         names.add("madonnaah");
-
+        names.add("chaiimaee");
+        names.add("chaimae");
         System.out.println();
      
         parametrizedSimpleSearch(names,"nida");
@@ -58,6 +59,10 @@ public class SimpleNameSearch {
 
         System.out.println("******************************************");
         parametrizedSimpleSearch(names,"rhizlane");
+        
+         System.out.println("******************************************");
+        parametrizedSimpleSearch(names,"chaimae");
+        
 
     }
 
