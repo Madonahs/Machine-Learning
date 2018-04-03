@@ -2,15 +2,19 @@ import tensorflow as tf
 import numpy as np
 
 
-print("Exercice")
+
+print("Exercise")
 X = tf.constant([1, 2, 3], shape=[3, 1])
 W1 = tf.constant([2, 0, 1, 0, 1, 2, 3, 0, 1], shape=[3, 3])
 W2 = tf.constant([1, 0, 1, 2, 2, 1, 0, 3, 0], shape=[3, 3])
 W3 = tf.constant([2, 4, 1], shape=[3, 1])
 
 Xt = tf.transpose(X)
+sess = tf.Session()
 print("Xt=",sess.run(Xt))
+
 print("\n")
+
 Y = tf.matmul(Xt, W1)
 sess = tf.Session()
 with sess.as_default():
