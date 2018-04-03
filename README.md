@@ -4,6 +4,12 @@ Practice Machine Learning.
 ## Prerequisites
 An open mind and an open heart, Strong Programmer +.
 
+## Maintainers
+* **Madona Syombua** 
+* **Rhizlane Karroumi** 
+* **Chaimae Asaad ** 
+* **Nida ** 
+
 ## Meet Our Contributors
 List [Contributors](https://github.com/Madonahs/Machine-Learning-Java/wiki)
 
