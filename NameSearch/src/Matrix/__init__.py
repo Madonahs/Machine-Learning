@@ -54,8 +54,12 @@ B = tf.constant([7, 8, 9, 10, 11, 12], shape=[3, 2])
 # [[ 58,  64],
 #  [139, 154]]
 C = tf.matmul(A, B)
-print()
-print(C)
+print("Tensorflow MUL")
+sess = tf.Session()
+with sess.as_default():
+	 C.eval()
+	 print(sess.run(C))
+
 
 
 
