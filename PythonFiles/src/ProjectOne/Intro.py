@@ -6,8 +6,8 @@ import matplotlib as graph
 
 
 '''
-
 This is a simple test to include python on our packages :) 
+We can remove this once everyone is ready.
 '''
 
 
