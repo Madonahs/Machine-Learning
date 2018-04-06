@@ -1,7 +1,3 @@
-import tensorflow as tf
-import numpy as np
-import pandas as pd
-import matplotlib as graph
 
 '''
 Simple test decimal to Binary Fraction

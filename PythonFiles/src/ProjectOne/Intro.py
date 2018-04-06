@@ -1,9 +1,4 @@
 #testing my import
-import tensorflow as tf
-import numpy as np
-import pandas as pd
-import matplotlib as graph
-
 
 '''
 This is a simple test to include python on our packages :) 
