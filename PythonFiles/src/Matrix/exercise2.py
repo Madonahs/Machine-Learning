@@ -31,7 +31,11 @@ So the idea is to understand if you get one you are fine :)
 
 So this will be:
 
-X_1^T W_1W_2W_3W_4W_5 - Y_1
+X_1^T W_1W_2W_3W_4W_5 - Y_1 = 76.
+
+Based on this example one should be able to solve for y2 and y3 but remember to check the X_transpose.
+X_2^T W_1W_2W_3W_4W_5 - Y_2 
+X_3^T W_1W_2W_3W_4W_5 - Y_3 
 '''
 
 print("This Exercise is based on issue number 18")
