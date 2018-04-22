@@ -2,6 +2,8 @@ import tensorflow as tf
 
 
 '''
+Created on Sun April 22 10:16:55 2018
+
 @author: madona
 
 This Exercise is based on Issue 18, practice more Matrix. We are using Tensorflow
@@ -94,14 +96,74 @@ sess = tf.Session()
 with sess.as_default():
     Y.eval()
     print("X_transposeW_1W_2_W_3W_4W_5=",sess.run(Y))
+          
+      
+print("Final Solution", sess.run(Y) - Y_1)
+print("\n")
+
+
+
+#I will try to solve x2, X_2^T W_1W_2W_3W_4W_5 - Y_2 , we know y_2 = 4. We can take x2^transpose
+# Rule Row, Column and it is always good to try to them on paper first. What changes on my second code
+#is just the x2 transpose. instead of [1,2,0] i will now have [4,3,1] and Y2 = 4
+
+print("Start Example 2 solving x_2")
+print("\n")
+
+X = tf.constant([4,3,1], shape=[3,1])
+Y_2 = 4 
+W_1 = tf.constant([0,2,0,1,3,1,4,0,1],shape =[3,3])
+W_2 = tf.constant([1,0,1,0,1,1,2,0,1], shape = [3,3])
+W_3 = tf.constant([0,0,1,1,0,1,1,1,1], shape =[3,3])
+W_4 = tf.constant([1,0,1,0,1,1,1,1,0], shape = [3,3])
+W_5 = tf.constant([1,0,1],shape = [3,1])
+
+
+X_transpose = tf.transpose(X)
+sess = tf.Session()
+
+print("X_transpose", sess.run(X_transpose))
+
+print("\n")
+
+K = tf.matmul(X_transpose, W_1)
+sess = tf.Session()
+with sess.as_default():
+    K.eval()
+    print("X_transposeW_1=",sess.run(K))
+print("\n")
+
+K = tf.matmul(K, W_2)
+sess = tf.Session()
+
+with sess.as_default():
+    K.eval()
+    print("X_transposeW_1W_2=",sess.run(K))
+print("\n")
+
+K = tf.matmul(K, W_3)
+sess = tf.Session()
+with sess.as_default():
+    K.eval()
+    print("X_transposeW_1W_2_W_3=",sess.run(K))
+print("\n") 
+K = tf.matmul(K, W_4)
+sess = tf.Session()
+
+with sess.as_default():
+    K.eval()
+    print("X_transposeW_1W_2W_3W_4=",sess.run(K))
+print("\n")
+K = tf.matmul(K, W_5)
+sess = tf.Session()
+with sess.as_default():
+    K.eval()
+    print("X_transposeW_1W_2_W_3W_4W_5=",sess.run(K))
      
      
 print("\n")         
       
-print("Final Solution", sess.run(Y) - Y_1)
-
-
-
+print("Final Solution", sess.run(K) - Y_2)
 
 
 
