@@ -1,7 +1,7 @@
 import tensorflow as tf
 
 '''
-This exercise is based on issue #13 please check the issue on our Board.
+This exercise is on issue #13 please check the issue on our Board.
 Problem approach using tensor flow:
 So given the following X^TW1W2W3
 X=[1,2,3]
@@ -50,6 +50,7 @@ print("\n")
 
 Y = tf.matmul(Y, W2)
 sess = tf.Session()
+
 with sess.as_default():
 	Y.eval()
 	print("XtW1W2=",sess.run(Y))
