@@ -21,7 +21,7 @@ W_5 = [1,0,1]
 
 We have 
 
-y_1 = 2; y_2= 4; y_5 = 1;
+y_1 = 2; y_2= 4; y_3 = 1;
 
 for  j = 1,2,3
 
@@ -105,7 +105,7 @@ print("\n")
 
 #I will try to solve x2, X_2^T W_1W_2W_3W_4W_5 - Y_2 , we know y_2 = 4. We can take x2^transpose
 # Rule Row, Column and it is always good to try to them on paper first. What changes on my second code
-#is just the x2 transpose. instead of [1,2,0] i will now have [4,3,1] and Y2 = 4
+#is just the x2 transpose. instead of [1,2,0] i will now have [4,3,1] and Y2 = 4 and introduce variable K
 
 print("Start Example 2 solving x_2")
 print("\n")
@@ -164,6 +164,69 @@ with sess.as_default():
 print("\n")         
       
 print("Final Solution", sess.run(K) - Y_2)
+
+print("\n")
+
+# Finalizing the problem. x3, X_3^T W_1W_2W_3W_4W_5 - Y_3 , I will introduce variable n
+
+print("Start Example 3 solving x_3")
+print("\n")
+
+X = tf.constant([0,3,1], shape=[3,1])
+Y_3 = 1 
+W_1 = tf.constant([0,2,0,1,3,1,4,0,1],shape =[3,3])
+W_2 = tf.constant([1,0,1,0,1,1,2,0,1], shape = [3,3])
+W_3 = tf.constant([0,0,1,1,0,1,1,1,1], shape =[3,3])
+W_4 = tf.constant([1,0,1,0,1,1,1,1,0], shape = [3,3])
+W_5 = tf.constant([1,0,1],shape = [3,1])
+
+
+X_transpose = tf.transpose(X)
+sess = tf.Session()
+
+print("X_transpose", sess.run(X_transpose))
+
+print("\n")
+
+n = tf.matmul(X_transpose, W_1)
+sess = tf.Session()
+with sess.as_default():
+    n.eval()
+    print("X_transposeW_1=",sess.run(n))
+print("\n")
+
+n = tf.matmul(n, W_2)
+sess = tf.Session()
+
+with sess.as_default():
+    n.eval()
+    print("X_transposeW_1W_2=",sess.run(n))
+print("\n")
+
+n = tf.matmul(n, W_3)
+sess = tf.Session()
+with sess.as_default():
+    n.eval()
+    print("X_transposeW_1W_2_W_3=",sess.run(n))
+print("\n") 
+n = tf.matmul(n, W_4)
+sess = tf.Session()
+
+with sess.as_default():
+    n.eval()
+    print("X_transposeW_1W_2W_3W_4=",sess.run(n))
+print("\n")
+n = tf.matmul(n, W_5)
+sess = tf.Session()
+with sess.as_default():
+    n.eval()
+    print("X_transposeW_1W_2_W_3W_4W_5=",sess.run(n))
+     
+     
+print("\n")         
+      
+print("Final Solution", sess.run(n) - Y_3)
+
 
 
 '''
