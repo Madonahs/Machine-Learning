@@ -5,7 +5,7 @@
 Practice Machine Learning.
 
 ## Prerequisites
-An open mind and an open heart, Strong Programmer +.
+An open mind and an open heart.
 
 ## Maintainers
 * **Madona Syombua** 
