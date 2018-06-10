@@ -1,4 +1,3 @@
-#testing my import
 
 '''
 This is a simple test to include python on our packages :) 
