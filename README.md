@@ -18,8 +18,6 @@ Machine learning is a subset of artificial intelligence in the field of computer
 ## Contributing
 Read  [Contributing](https://gist.github.com/PurpleBooth/b24679402957c63ec426)
 
-## Code Of Conduct
-Read - [Code of conduct](https://github.com/Madonahs/Machine-Learning-Java/blob/master/CODE_OF_CONDUCT.md)
 
 ## External Libraries
 
