@@ -7,11 +7,7 @@ Practice Machine Learning.
 ## Prerequisites
 An open mind and an open heart.
 
-## Maintainers
-* **Madona Syombua** 
-* **Rhizlane Karroumi** 
-* **Chaimae Asaad** 
-* **Nida** 
+
 
 ## Meet Our Contributors
 List [Contributors](https://github.com/Madonahs/Machine-Learning-Java/wiki)
@@ -33,8 +29,22 @@ Data [Here](https://archive.ics.uci.edu/ml/datasets.html?format=mat&task=&att=&a
 
 Pandas[Here](https://pandas.pydata.org/)
 
+
+
+## Maintainers
+* **Madona Syombua** 
+* **Rhizlane Karroumi** 
+* **Chaimae Asaad** 
+* **Nida** 
+
 ## Licence
-Read [Licence](https://github.com/Madonahs/Machine-Learning/blob/master/LICENSE.md)
 
+MIT License
 
+Copyright (c) 2018 Madona Syombua
 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
