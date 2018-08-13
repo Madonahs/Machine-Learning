@@ -110,6 +110,26 @@ ID| Location                  | Age           | Subscriber Complaints   | Monthl
 ## Contributing
 Read  [Contributing](https://gist.github.com/PurpleBooth/b24679402957c63ec426)
 
+## Machine learning algorithms:: 
+
+#### Linear Algorithms:
+
+* **Algorithm 1: Linear Regression**
+* **Algorithm 2: Logistic Regression**
+* **Algorithm 3: Linear Discriminant Analysis**
+
+*Nonlinear Algorithms:
+
+* **Algorithm 4: Classification and Regression Trees**
+* **Algorithm 5: Naive Bayes**
+* **Algorithm 6: K-Nearest Neighbors**
+* **Algorithm 7: Learning Vector Quantization**
+* **Algorithm 8: Support Vector Machines**
+
+*Ensemble Algorithms:
+
+* **Algorithm 9: Bagged Decision Trees and Random Forest**
+* **Algorithm 10: Boosting and AdaBoost**
 
 ## License
 
