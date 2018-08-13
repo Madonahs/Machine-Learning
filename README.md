@@ -1,7 +1,7 @@
 <h1 align="center">Machine Learning </h1>
 
 </p>
-This repository was created for educational purposes.
+This repository was created for educational purposes. It will host a number of projects as part of the process. 
 
 ## Intro
 With an upsurge in cybercrimes related to Sim Card Swap fraud in developing countries, making fraud detection is a top priority. If we are able to estimate whether someone is going to commit Sim Card Fraud we can surely try to prevent it earlier. 
@@ -106,7 +106,7 @@ ID| Location                  | Age           | Subscriber Complaints   | Monthl
 Read  [Contributing](https://gist.github.com/PurpleBooth/b24679402957c63ec426)
 
 
-## Licence
+## License
 
  Copyright [2018] [Madona Syombua]
 
