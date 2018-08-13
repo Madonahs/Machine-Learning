@@ -2,7 +2,8 @@
 
 </p>
 
-* **This repository was created for educational purposes. It will host a number of projects as part of the process, the files will be labeled 'Project A' e.t.c**
+* **This repository was created for educational purposes. It will host a number of projects as part of the process and some exercises that I created like the Matrix multiplication using Tensor flow**
+
 
 ## Intro
 
