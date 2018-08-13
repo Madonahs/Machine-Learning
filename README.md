@@ -2,9 +2,12 @@
 
 </p>
 
-* **This repository was created for educational purposes. It will host a number of projects as part of the process**
+* **This repository was created for educational purposes. It will host a number of projects as part of the process, the files will be labeled 'Project A' e.t.c**
 
 ## Intro
+
+### Project A
+
 With an upsurge in cybercrimes related to Sim Card Swap fraud in developing countries, making fraud detection is a top priority. If we are able to estimate whether someone is going to commit Sim Card Fraud we can surely try to prevent it earlier. 
 
 ## Intro
