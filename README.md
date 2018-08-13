@@ -133,7 +133,7 @@ Read  [Contributing](https://gist.github.com/PurpleBooth/b24679402957c63ec426)
 
 ## License
 
- Copyright [2018] [Madona Syombua]
+ Copyright [2018] [The Team]
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
