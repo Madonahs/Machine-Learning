@@ -2,7 +2,7 @@
 
 </p>
 
-**This repository was created for educational purposes. It will host a number of projects as part of the process and some exercises that we created**
+**This repository was created for educational purposes. It will host a number of projects as part of the process and some exercises that we created.**
 
 
 ## Intro
