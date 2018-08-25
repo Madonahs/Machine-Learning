@@ -52,7 +52,7 @@ Swap | Not Swapped|
 |1 | 0|
 
 * **Sample Fake Data taken from Nairobi**
-Data is not given in this case so I decided to create my own, I will identify Locations here and not use the Location since we can have many customers living in the same Location.  
+Data is not given in this case so I decided to create my own, I will identify Locations here though I will not use Location since we can have many customers living in the same Location.  
 
 ID| Location                  | Age           | Subscriber Complaints   | Monthly Payments KSH |  Contacts |Swap Agent |
 | ------------- | -------------         |:--------------------: | ----------------: | ---------------:| ---------------:| ---------------:|
