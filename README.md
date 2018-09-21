@@ -61,7 +61,7 @@ ID| Location                  | Age           | Subscriber Complaints   | Monthl
 |3|Nairobi               |60                     | 1            |180               |44| 0|
 |4|Nairobi              |25                     | 2            |200               |30|0|
 |5|Nairobi             |30                     | 2           |300               |10|1|
-|6|Kitusuru               |45                     | 1            |900               |55|0|
+|6|Nairobi              |45                     | 1            |900               |55|0|
 |7|Nairobi              |50                     | 3            |120               |20| 0|
 |8|Nairobi              |78                     | 1          |60               |10 | 1|
 |9|Nairobi                |26                     | 1            |180               |44| 0|
