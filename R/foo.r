@@ -102,12 +102,6 @@ for(j in 1:n){
   }
 } 
 
-## calculate Monte Carlo bond price and compare to Exact Vasicek solution
-ss <- colSums(r[2:(m+1),]*dt)  # integral estimate
-c <- exp(-ss)
-estimate <- mean(c)
-stdErr <- sd(c)/sqrt(n)
-exact <- VasicekZCBprice(r0, k, theta, beta, T)
 
 cat('Exact Vasicek Price:', round(exact,4), 'n')
 cat('MC Price:', round(estimate,4), 'n')
