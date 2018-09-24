@@ -2,7 +2,7 @@
 title: "NN"
 author: "Syombua"
 date: "April 2, 2018"
-output: html_document
+
 ---
 
 ```{r setup, include=FALSE}
