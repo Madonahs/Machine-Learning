@@ -35,10 +35,7 @@ df = pd.read_csv("customer_data.csv")
 
 print(df)
 
-
-'''
-Just simple test, not perfect but learning.
-'''
+#df describe
 df.describe()
 
 df.info()
@@ -56,8 +53,10 @@ X = df.iloc[:,:-1]
 
 y = df.iloc[:,-1]
 
+#training the dataset 
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0)
 
+#the model is LogisticRegression 
 lr = LogisticRegression()
 
 lr.fit(X_train, y_train)
@@ -65,10 +64,9 @@ lr.fit(X_train, y_train)
 y_predict = lr.predict(X_test)
 y_predict.reshape(-1,1)
 
-'''
-Using the dummy data the percentage is 62.5
 
-'''
+#Using the dummy data the percentage is 62.5
+
 print(y_predict)
 print(y_test)
 
@@ -77,8 +75,10 @@ precision =  metrics.precision_score(y_test, y_predict)
 recall =  metrics.recall_score(y_test, y_predict)
 f1ratio =  metrics.f1_score(y_test, y_predict)
 
+#check accuracy
 print(accuracy)
 
+#check precision 
 print(precision)
 
 print(recall)
@@ -90,7 +90,7 @@ fpr_lr, tpr_lr, _ = metrics.roc_curve(y_test, y_score_lr)
 roc_auc_lr = metrics.auc(fpr_lr, tpr_lr)
 
 print("Testing accuracy\n\n")
-
+'''
 plt.figure()
 plt.xlim([-0.01, 1.00])
 plt.ylim([-0.01, 1.01])
@@ -102,7 +102,7 @@ plt.legend(loc='lower right', fontsize=13)
 plt.plot([0, 1], [0, 1], color='navy', lw=3, linestyle='--')
 plt.axes().set_aspect('equal')
 plt.show()
-
+'''
 
 
 
