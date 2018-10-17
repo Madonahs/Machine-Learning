@@ -16,10 +16,8 @@ Created on Thu Aug  9 17:35:26 2018
 
 @author: madona syombua
 
-The data is checking , Age, Number of Complaints, Monthly Payment in Ksh
-Number of contacts the user has, and Swap Agent.
-
-I try to name the variable well for easier reading.
+Simply a play ground and just for practice, I am new to Machine Learning
+and trying to learn new things. 
 """
 
 import pandas as pd
