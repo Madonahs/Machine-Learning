@@ -18,8 +18,6 @@ Predicting the likelihood of Sim Card Swap Fraud Occurrence.
 * **Train and test the data samples**
 * **Normalize and summarize the data**
 
-### Mode
-Develop
 
 ### Implementations
 
