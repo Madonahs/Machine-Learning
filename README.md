@@ -50,8 +50,19 @@ Sim Card Swap Fraud Detection.
 
 * **Logistic Regression.** Logistic regression is the appropriate regression analysis to conduct when the dependent variable is dichotomous (binary). Like all regression analyses, the logistic regression is a predictive analysis.
 
+<div>
+  <h2>
+<details>
+    <summary><img align="left" width="130" height="43" src="https://user-images.githubusercontent.com/11560987/68676471-1d804e00-0528-11ea-999e-3116805dcfa9.png">
+    </summary>
+ 
+ <br><br>
+  *  [**Sample Dataset**](https://www.madonahsyombua.com/articles/machine-learning)
 
-## Data
+
+ </details>
+</h2>
+</div>
 
 ### Sample Dataset
 
