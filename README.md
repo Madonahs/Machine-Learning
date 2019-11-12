@@ -6,7 +6,22 @@
 I created this repository for educational purposes. It will host a number of projects as part of the process and some exercises that we created, just purely a learning process. Not perfectly done.**
 
 
-## Intro
+
+<div>
+  <h2>
+<details>
+    <summary><img align="left" width="130" height="43" src="https://user-images.githubusercontent.com/11560987/68676260-a2b73300-0527-11ea-9194-04bd952baf7f.png">
+    </summary>
+ 
+ <br><br>
+  *  [**Machine Learning Cheat Sheet**](https://drive.google.com/open?id=1lxb-7FWiY5KwTYehcPhn67tFu5ZHvJDH)
+ *  [**Machine Learning in Laymens Terms**](https://drive.google.com/open?id=1xyBNBgOW6uR9Wzf5SiJrMHZK0alvrr3s)
+
+ </details>
+</h2>
+</div>
+
+
 
 ### Project A
 
