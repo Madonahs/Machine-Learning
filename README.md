@@ -146,7 +146,7 @@ Read  [Contributing](https://gist.github.com/PurpleBooth/b24679402957c63ec426)
 * **Algorithm 2: Logistic Regression**
 * **Algorithm 3: Linear Discriminant Analysis**
 
-*Nonlinear Algorithms:
+**Nonlinear Algorithms:**
 
 * **Algorithm 4: Classification and Regression Trees**
 * **Algorithm 5: Naive Bayes**
@@ -154,7 +154,7 @@ Read  [Contributing](https://gist.github.com/PurpleBooth/b24679402957c63ec426)
 * **Algorithm 7: Learning Vector Quantization**
 * **Algorithm 8: Support Vector Machines**
 
-*Ensemble Algorithms:
+**Ensemble Algorithms:**
 
 * **Algorithm 9: Bagged Decision Trees and Random Forest**
 * **Algorithm 10: Boosting and AdaBoost**
