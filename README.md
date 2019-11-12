@@ -15,7 +15,10 @@ I created this repository for educational purposes. It will host a number of pro
  
  <br><br>
   *  [**Machine Learning Cheat Sheet**](https://drive.google.com/open?id=1lxb-7FWiY5KwTYehcPhn67tFu5ZHvJDH)
+   *  [**Machine Learning PlayGround**](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=3,2&seed=0.88257&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=true&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
  *  [**Machine Learning in Laymens Terms**](https://drive.google.com/open?id=1xyBNBgOW6uR9Wzf5SiJrMHZK0alvrr3s)
+ 
+
 
  </details>
 </h2>
