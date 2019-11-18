@@ -25,8 +25,7 @@ I created this repository for educational purposes. It will host a number of pro
 </div>
 
 
-### ROC
-![accuracy](https://user-images.githubusercontent.com/11560987/43937762-3b996100-9c25-11e8-942a-77b9b3ba07f5.png)
+
 
 
 ## Contributing
