@@ -1,5 +1,10 @@
 <h1 align="center">Machine Learning </h1>
 
+ <p align="left">
+       <img src="http://img.shields.io/:license-apache-blue.svg" alt="License" />
+        <img src="https://img.shields.io/badge/status-incomplete-orange.svg" />
+        <img src="https://img.shields.io/badge/code%20quality-10-green.svg" />
+</p>
 </p>
 
 **NOTE:
